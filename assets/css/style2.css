@@ -1,0 +1,15 @@
+.card {
+width: 400px;
+}
+
+#logoIcon{
+    width: 250px;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    align-items: baseline;
+}

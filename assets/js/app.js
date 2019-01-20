@@ -7,8 +7,8 @@
     //console.log(data[i].episodeDescription);
    // console.log(data[i].episodeTitle);
 
-const data = (DATA.characters);
-const data2 = (EPISODES.episodes);
+//const data = (DATA.characters);
+/*const data2 = (EPISODES.episodes);
 
    for ( let i = 0; i < data2.length; i++){
    }
@@ -17,4 +17,4 @@ const data2 = (EPISODES.episodes);
         return element.seasons.indexOf(condition) > -1
     })
     return gotFiltered;
-}
+}*/

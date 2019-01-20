@@ -1,5 +1,7 @@
 const containerRoot2 = document.getElementById("root2");
-const seasonFilter2 = document.getElementById("seasons2");
+let data2 = (EPISODES.episodes);
+//const seasonFilter2 = document.getElementById("seasons2");
+
 
 
 
@@ -8,19 +10,20 @@ const showData2 = (data2) =>{
 
    data2.forEach(element => {
      //   if (element.characterName !== "") {
-    
+    if(element.seasonNum !== "") 
+
         result2 = containerRoot2.innerHTML += `
         <div>
         <div class="card">
         <div class="box">        
-        <div class=${element.episodeTitle}>
-        <h2 Episodio=${element.episodeNum}><br></h2>
-        <p Temporada: ${element.seasonNum}     
+        <h3>${element.episodeTitle}</h3>
+        <p>${element.episodeDescription}><br></p>
+        <p>${element.seasonNum}    </p> 
       </div>
     </div>
     </div>`
-}
-    );
+
+});
 return result2;
 }
 /*
@@ -44,4 +47,4 @@ seasonFilter2.addEventListener("change", () => {
 
 }
 )*/
-window.onload = showData2(data2)
+window.onload = showData2(data2);
