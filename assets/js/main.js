@@ -1,6 +1,6 @@
 const containerRoot = document.getElementById("root");
+//const seasonFilter = document.getElementById("temporadas");
 
-const data = (DATA.characters);
 
 
 const showData = (data) =>{
@@ -18,12 +18,12 @@ const showData = (data) =>{
         </div>
         <h2>${element.characterName}<br></h2>        
       </div>
+    </div>
     </div>`
 }
     );
-  
-
 return result;
-
 }
+
+
 window.onload = showData(data)
