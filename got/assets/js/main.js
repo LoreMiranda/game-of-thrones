@@ -13,7 +13,8 @@ let result = "";
         <div class="img">
         <img src=${element.characterImageThumb}>
         </div>
-        <h2>${element.characterName}<br></h2>        
+        <br>
+        <h5>${element.characterName}<br></h5>        
         </div>
         </div>
         </div>`
