@@ -1,0 +1,41 @@
+.body{
+    background-color: rgb(28, 29, 31); 
+}
+
+.logoIcon2{
+    width: 250px;
+}
+
+.body{
+    background: rgb(28, 29, 31);
+    }
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.card {
+    width: 400px;
+    height: 250px;
+    margin: 3em;
+    display: inline-block;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.39);
+    text-align: justify;
+    align-content: flex-end;
+    padding: 20px;
+}
+
+.card .box h2 {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.footer{
+    background: beige;
+    font-size: 13px;
+    text-align: center;
+    margin: 2%;
+}
