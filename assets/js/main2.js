@@ -10,8 +10,8 @@ data2.forEach(element => { //hago un forEach para que ejecute la función de arr
     if(element.seasonNum !== "") {//le doy condición con if, si el elemento no es un string vacío (distinto), entonces que me imprima lo de abajo
         result2 = containerRoot2.innerHTML += `
         <div>
-        <div class="card">
-        <div class="box">        
+        <div class="card2">
+        <div class="box2">        
         <h3>${element.episodeTitle}</h3>
         <p>${element.episodeDescription}<br></p>
         <p>Season: ${element.seasonNum}</p>         
@@ -35,8 +35,8 @@ seasonSelect.addEventListener("change", () => {//para que escuche los cambios de
         if (element.episodeDescription === ""){
         containerRoot2.innerHTML +=`
         <div>
-        <div class="card">
-        <div class="box">
+        <div class="card2">
+        <div class="box2">
         <h3>${element.episodeTitle}</h3>
         <p>Descripción no disponible</p>
         <p>${element.episodeDescription}><br></p>        
@@ -47,8 +47,8 @@ seasonSelect.addEventListener("change", () => {//para que escuche los cambios de
         }else{
         containerRoot2.innerHTML +=`
         <div>
-        <div class="card">
-        <div class="box">
+        <div class="card2">
+        <div class="box2">
         <h3>${element.episodeTitle}</h3>        
         <p>${element.episodeDescription}><br></p>        
         <p>Season: ${element.seasonNum}</p>        

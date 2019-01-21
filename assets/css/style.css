@@ -3,7 +3,7 @@
 }
 
 .body{
-    background-color: rgb(28, 29, 31);
+    background: rgb(28, 29, 31);
     }
 
 .container-fluid {
@@ -36,15 +36,11 @@
     margin-top: 20px;
 }
 
-.card .box h2 {
+.card2 .box2 h2 {
     font-size: 14px;
     display: inline-block;
     padding: 0.25em 0.6em;
     margin-top: 20px;
-}
-
-.card .box span {
-   display: inline-flex;
 }
 
 .footer{

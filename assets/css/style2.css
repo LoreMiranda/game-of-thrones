@@ -2,39 +2,14 @@
     background-color: rgb(28, 29, 31); 
 }
 
-.logoIcon{
+.logoIcon2{
     width: 250px;
 }
 
-.container-fluid {
-    display: flex;
-    flex-direction: row;
-    align-content: flex-end;
-    flex-wrap: wrap;
-    align-items: baseline;
-}
+.body{
+    background: rgb(28, 29, 31);
+    }
 
-.card {
-    width: 420px;
-    height: 200px;
-    margin: 2em;
-    text-align: justify;
-    align-content: flex-start;
-    
-}
-
-.card .box {
-    font-size: 14px;
-    display: inline-block;
-    padding: 0.20em 0.4m;
-    margin-top: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.card .box span {
-   display: inline-flex;
-}
 
 .footer{
     background: beige;
