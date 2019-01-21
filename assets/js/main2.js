@@ -1,6 +1,6 @@
 const containerRoot2 = document.getElementById("root2"); //hago mi constante para llamar a mi root por el id
 let data2 = (EPISODES.episodes); //variable para llamar a la data
-const seasonSelectList = document.getElementById("seasonList2");//variable para el filtro (llamo al id de la lista de temporadas)
+const seasonSelect = document.getElementById("seasonList2");//variable para el filtro (llamo al id de la lista de temporadas)
 
 
 const showData2 = (data2) =>{ //hago la funcion para que me muestre la data 
@@ -26,7 +26,7 @@ return result2;
 
 //FUNCION PARA FILTRAR
 
-seasonSelectList.addEventListener("change", () => {//para que escuche los cambios de la lista de temporadas
+seasonSelect.addEventListener("change", () => {//para que escuche los cambios de la lista de temporadas
     let condition = seasonList2.value  //la condición es cada vez que cambie, tomará el valor asignado a cada temporada de la lista del html
     let seasonFilter = filterByTemp(data2, condition);
     //se limpia el div de lista de temporadas
