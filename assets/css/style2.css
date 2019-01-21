@@ -1,8 +1,8 @@
-.card {
-width: 400px;
+.body{
+    background-color: rgb(28, 29, 31); 
 }
 
-#logoIcon{
+.logoIcon{
     width: 250px;
 }
 
@@ -12,4 +12,33 @@ width: 400px;
     align-content: flex-end;
     flex-wrap: wrap;
     align-items: baseline;
+}
+
+.card {
+    width: 420px;
+    height: 200px;
+    margin: 2em;
+    text-align: justify;
+    align-content: flex-start;
+    
+}
+
+.card .box {
+    font-size: 14px;
+    display: inline-block;
+    padding: 0.20em 0.4m;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.card .box span {
+   display: inline-flex;
+}
+
+.footer{
+    background: beige;
+    font-size: 13px;
+    text-align: center;
+    margin: 2%;
 }

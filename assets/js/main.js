@@ -1,14 +1,11 @@
 const containerRoot = document.getElementById("root");
-//const seasonFilter = document.getElementById("temporadas");
-
+const data = (DATA.characters);
 
 
 const showData = (data) =>{
-    let result = "";
+let result = "";
 
-   data.forEach(element => {
-     //   if (element.characterName !== "") {
-    
+   data.forEach(element => {    
         result = containerRoot.innerHTML += `
         <div>
         <div class="card">
@@ -17,13 +14,12 @@ const showData = (data) =>{
         <img src=${element.characterImageThumb}>
         </div>
         <h2>${element.characterName}<br></h2>        
-      </div>
-    </div>
-    </div>`
+        </div>
+        </div>
+        </div>`
 }
     );
 return result;
 }
 
-
-window.onload = showData(data)
+window.onload = showData(data);
